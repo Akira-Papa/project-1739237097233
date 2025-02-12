@@ -4,22 +4,22 @@ export default function BlogPage() {
     return (
         <div
             className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white"
-            data-oid="bvlghmb"
+            data-oid="e3lck9x"
         >
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" data-oid="yrw0-3:">
-                <div className="text-center" data-oid="k4d5ehm">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" data-oid="8ao.1m5">
+                <div className="text-center" data-oid="hdpl_:5">
                     <h1
                         className="text-4xl sm:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600"
-                        data-oid="tpsjvis"
+                        data-oid="o3708eu"
                     >
                         Next.js ブログ
                     </h1>
-                    <p className="mt-6 text-xl text-gray-300" data-oid="vo:z:2e">
+                    <p className="mt-6 text-xl text-gray-300" data-oid="kfm:.nz">
                         最新のNext.js関連の記事をご覧ください
                     </p>
                 </div>
 
-                <div className="mt-16 grid gap-8 md:grid-cols-2" data-oid="l0d2th9">
+                <div className="mt-16 grid gap-8 md:grid-cols-2" data-oid="jtcehh7">
                     {[
                         {
                             title: 'Next.js 14の新機能について',
@@ -45,18 +45,18 @@ export default function BlogPage() {
                         <div
                             key={i}
                             className="p-6 rounded-lg bg-gray-800/50 hover:bg-gray-800/70 transition-colors cursor-pointer border border-gray-700 hover:border-purple-500"
-                            data-oid="1i0:gja"
+                            data-oid="1l7_eo6"
                         >
-                            <div className="text-sm text-purple-400" data-oid="js5n36r">
+                            <div className="text-sm text-purple-400" data-oid="02rv297">
                                 {post.date}
                             </div>
                             <h3
                                 className="mt-2 text-xl font-semibold text-white"
-                                data-oid="5d.e6_e"
+                                data-oid="a_lje0-"
                             >
                                 {post.title}
                             </h3>
-                            <p className="mt-2 text-gray-400" data-oid="j-n786u">
+                            <p className="mt-2 text-gray-400" data-oid="2pih23w">
                                 {post.desc}
                             </p>
                         </div>
@@ -64,12 +64,12 @@ export default function BlogPage() {
                 </div>
             </main>
 
-            <footer className="mt-24 border-t border-gray-800 py-12" data-oid="q0cy:96">
+            <footer className="mt-24 border-t border-gray-800 py-12" data-oid="k9sgohf">
                 <div
                     className="max-w-7xl mx-auto px-4 text-center text-gray-400"
-                    data-oid="fbncrh1"
+                    data-oid="h7z0oo2"
                 >
-                    <p data-oid="c2a.s6s">© 2024 Next.js. All rights reserved.</p>
+                    <p data-oid="sa_iy0d">© 2024 Next.js. All rights reserved.</p>
                 </div>
             </footer>
         </div>
